@@ -1,30 +1,29 @@
 package br.com.gx2.recibo;
 
-public class Prestador extends Recibo {
 
-	
-		
-	
-	private int codigoPrestador ;
+
+public class Prestador {
+
+
+	private int codigoPrestador;
 	private String nome;
 	private String endereco;
 	private String cpf;
 	private int matricula;
-	private double valorServico;
+	
 	
 	public Prestador() {
 		
 	}
 
-	public Prestador(int codigoPrestador, String nome, String endereco, String cpf, int matricula,
-			double valorServico) {
+	public Prestador(int codigoPrestador, String nome, String endereco, String cpf, int matricula) {
 		super();
 		this.codigoPrestador = codigoPrestador;
 		this.nome = nome;
 		this.endereco = endereco;
 		this.cpf = cpf;
 		this.matricula = matricula;
-		this.valorServico = valorServico;
+		
 	}
 
 	public int getCodigoPrestador() {
@@ -67,18 +66,11 @@ public class Prestador extends Recibo {
 		this.matricula = matricula;
 	}
 
-	public double getValorServico() {
-		return valorServico;
-	}
-
-	public void setValorServico(double valorServico) {
-		this.valorServico = valorServico;
-	}
 
 	@Override
 	public String toString() {
 		return "Prestador [codigoPrestador=" + codigoPrestador + ", nome=" + nome + ", endereco=" + endereco + ", cpf="
-				+ cpf + ", matricula=" + matricula + ", valorServico=" + valorServico + "]";
+				+ cpf + ", matricula=" + matricula + ", valorServico=" +"]";
 	}
 	
 	
