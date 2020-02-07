@@ -15,9 +15,9 @@ public class TestRecibo {
 	
 	
 	
-System.out.println("Claculo de Inss:" + recibo.getValorInss());
-System.out.println("Claculo de Ir:" + recibo.getValorIr());
-System.out.println("Claculo de Liquido:" + recibo.getValorLiquido());
+	System.out.println("Claculo de Inss:" + recibo.getValorInss());
+	System.out.println("Claculo de Ir:" + recibo.getValorIr());
+	System.out.println("Claculo de Liquido:" + recibo.getValorLiquido());
 
 	
 	}
