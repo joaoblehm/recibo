@@ -11,7 +11,6 @@ public class TestRecibo {
 	CalculoRecibo calculo = new CalculoRecibo();
 	
 	Recibo recibo = new Recibo();
-	
 	Prestador prestador = new Prestador();
 	
 	
