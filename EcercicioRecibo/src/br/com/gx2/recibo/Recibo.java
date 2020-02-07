@@ -7,7 +7,7 @@ public class Recibo {
 	private double valorInss;
 	private double valorIr;
 	private double valorLiquido;
-	private double valorServico = 180;
+	private double valorServico;
 	
 	
 	public Recibo() {
